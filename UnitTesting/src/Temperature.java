@@ -15,9 +15,9 @@ public class Temperature extends Measurement{
         }
         if(this.unit.equalsIgnoreCase("k"))
         {
-            return this.value - 273.15;
+            return this.value - 273;
         }
-        return 1.0;
+        return 0;
 
     }
 

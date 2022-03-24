@@ -20,7 +20,7 @@ public class Weight extends Measurement{
             return otherUnit.value/1000;
         }
 
-        return 1.0;
+        return 0;
     }
     @Override
     public double addUnits(Measurement otherUnit) {

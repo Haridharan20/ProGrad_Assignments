@@ -25,11 +25,12 @@ public class Length extends Measurement {
         else if((unit == "km") && (otherUnit.unit == "cm")) {
             return otherUnit.value / 100000;
         }
-        return 1.0;
+        return 0;
     }
 
     @Override
     public double addUnits(Measurement otherUnit) {
+//   meter.centimeter  centimeter.meter
         double ans = this.value+convert(this.unit,otherUnit);
         return ans;
     }
@@ -43,7 +44,6 @@ public class Length extends Measurement {
     @Override
     public boolean checkEquals(Measurement otherUnit)
     {
-
         return this.value==convert(this.unit,otherUnit);
     }
 }
