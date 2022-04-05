@@ -109,12 +109,12 @@ i{
     color: #212529;
 }
 .about-main{
-    width: 700px;
+    width: 900px;
     margin-top: 15px;
 }
 
 .about-main p{
-    font-size: 15px;
+    font-size: 20px;
     font-weight: 400;
     text-indent: 25px;
     color: #6c757d!important;
@@ -126,11 +126,16 @@ i{
 
 .card {
     margin-top: 20px;
-    box-shadow: 2px 2px 2px 1px rgba(0, 0, 0, 0.2);;
+    box-shadow: 3px 2px 3px 2px rgba(105, 104, 104,0.8);;
     width: 30%;
     background-color: black;
     color: white;
-    /* height: 285px; */
+    border-radius: 10px;
+  }
+
+  .card img
+  {
+      border-radius: 10px;
   }
 
   .row
@@ -230,7 +235,14 @@ i{
 
   .skills{
     width: 100%;
-   
+  }
+  .skill{
+      margin: 10px 0;
+  }
+  .skill >p{
+      font-size: 18px;
+      font-weight: 600;
+      margin-bottom: 2px;
   }
   .border{
     background-color: rgb(192, 192, 192);
